@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+html,
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#register {
+    font-family: "Numans", sans-serif;
+}
+
+#register.container {
+    height: 100%;
+    align-content: center;
+}
+
+#register .card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#register .social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #8dcdfc;
+}
+
+#register .social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#register .card-header h3 {
+    color: white;
+}
+
+#register .social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+#register .input-group-text {
+    width: 50px;
+    background-color: #8dcdfc;
+    color: black;
+    border: 0 !important;
+}
+
+#register input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+#register .remember {
+    color: white;
+}
+
+#register .remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+#register .register_btn {
+    color: black;
+    background-color: #8dcdfc;
+    width: 100px;
+}
+
+#register .register_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+#register .links {
+    color: white;
+}
+
+#register .links a {
+    margin-left: 4px;
+}
+#register .form-group {
+    margin-bottom: 1rem;
+}

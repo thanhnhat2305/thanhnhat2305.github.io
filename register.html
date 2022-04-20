@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Register</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="css/all.css" rel="stylesheet" />
+        <link href="css/register.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <nav
+            class="navbar fixed-top navbar-expand-lg navbar-light"
+            style="background-color: #e3f2fd"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Main</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="products.html"
+                                >Sản phẩm</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Giới thiệu</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="register.html">Đăng ký</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="register" class="container">
+            <div class="d-flex justify-content-center h-100">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Đăng ký</h3>
+                        <div class="d-flex justify-content-end social_icon">
+                            <span><i class="fab fa-facebook-square"></i></span>
+                            <span><i class="fab fa-google-plus-square"></i></span>
+                            <span><i class="fab fa-twitter-square"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form action="index.html">
+                            <div class="mb-3 row">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"
+                                        ><i class="fas fa-user"></i
+                                    ></span>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Tên người dùng"
+                                        aria-label="Username"
+                                        aria-describedby="basic-addon1"
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon2"
+                                        ><i class="fas fa-key"></i
+                                    ></span>
+                                    <input
+                                        type="password"
+                                        class="form-control"
+                                        placeholder="Mật khẩu"
+                                        aria-label="Password"
+                                        aria-describedby="basic-addon2"
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon3"
+                                        ><i class="fas fa-envelope"></i
+                                    ></span>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Email"
+                                        aria-label="Email"
+                                    />
+                                    <span class="input-group-text"><i class="fas fa-at"></i
+                                        ></span>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Host"
+                                        aria-label="Host"
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon4"
+                                        ><i class="fas fa-user"></i
+                                    ></span>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Địa chỉ"
+                                        aria-label="Address"
+                                        aria-describedby="basic-addon1"
+                                    />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="submit"
+                                    value="Đăng ký"
+                                    class="btn float-end register_btn"
+                                />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

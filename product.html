@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Product</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="css/all.css" rel="stylesheet" />
+        <link href="css/product.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <nav
+            class="navbar fixed-top navbar-expand-lg navbar-light"
+            style="background-color: #e3f2fd"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Main</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="products.html"
+                                >Sản phẩm</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Giới thiệu</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Đăng ký</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 border-end border-light item-photo">
+                    <img class="img-fluid" src="img/8200.jpg" />
+                </div>
+                <div class="col-5" style="border: 0px solid gray">
+                    <h3>Cisco Catalyst 8300 Series Edge Platforms</h3>
+                    <h5 style="color: #337ab7">
+                        Thuộc danh mục <a href="products.html#switch">Switch</a>
+                    </h5>
+
+                    <h6 class="title-price"><small>Giá niêm yết</small></h6>
+                    <h3 style="margin-top: 0px">1500$</h3>
+
+                    <div class="section">
+                        <h6 class="title-attr" style="margin-top: 15px"><small>Màu sắc</small></h6>
+                        <div>
+                            <div class="attr" style="width: 25px; background: #000000"></div>
+                            <div class="attr" style="width: 25px; background: white"></div>
+                        </div>
+                    </div>
+                    <div class="section" style="padding-bottom: 5px">
+                        <h6 class="title-attr"><small>Độ dài cáp đi kèm</small></h6>
+                        <div>
+                            <div class="attr2">1.5 mét</div>
+                            <div class="attr2">3 mét</div>
+                        </div>
+                    </div>
+                    <div class="section" style="padding-bottom: 20px">
+                        <h6 class="title-attr"><small>Số lượng</small></h6>
+                        <div>
+                            <div class="btn-minus">
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <input value="1" />
+                            <div class="btn-plus">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section" style="padding-bottom: 20px">
+                        <a href="checkout.html" class="btn btn-success">
+                            <i class="fa-solid fa-money-bill"> </i> Mua ngay
+                        </a>
+                        <h6>
+                            <a href="#"
+                                ><i class="fa-regular fa-heart"></i> Thêm vào danh sách yêu thích</a
+                            >
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="col-9">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link text-dark active"
+                                id="home-tab"
+                                data-bs-toggle="tab"
+                                data-bs-target="#home"
+                                type="button"
+                                role="tab"
+                                aria-controls="home"
+                                aria-selected="true"
+                            >
+                                Mô tả
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link text-dark"
+                                id="profile-tab"
+                                data-bs-toggle="tab"
+                                data-bs-target="#profile"
+                                type="button"
+                                role="tab"
+                                aria-controls="profile"
+                                aria-selected="false"
+                            >
+                                Thông số kỹ thuật
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link text-dark"
+                                id="contact-tab"
+                                data-bs-toggle="tab"
+                                data-bs-target="#contact"
+                                type="button"
+                                role="tab"
+                                aria-controls="contact"
+                                aria-selected="false"
+                            >
+                                Hỗ trợ
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div
+                            class="tab-pane fade show active"
+                            id="home"
+                            role="tabpanel"
+                            aria-labelledby="home-tab"
+                        >
+                            The Cisco 4000 Series Integrated Services Routers provide routing,
+                            hosting, security, switching, and application visibility—all in a
+                            single, trustworthy platform. Build your digital branch to be secure,
+                            fast, and scalable. Quickly adopt advanced technologies—such as SD-WAN,
+                            enhanced application visibility, and edge computing—while meeting the
+                            heavy network-performance demands driven by cloud applications and
+                            digital transformation.
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="profile"
+                            role="tabpanel"
+                            aria-labelledby="profile-tab"
+                        >
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Product feature</th>
+                                        <th scope="col">Benefits and description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Multicore processors</th>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    Intel x86 CPU with 8-GB memory default (up to 32
+                                                    GB memory upgrade)
+                                                </li>
+                                                <li>
+                                                    High-performance multicore processors support
+                                                    high-speed WAN connections.
+                                                </li>
+                                                <li>
+                                                    Dynamic core allocation architecture that can
+                                                    leverage data plane cores for I/O and service
+                                                    plane as per-user configuration.
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            Embedded IPsec VPN hardware acceleration
+                                        </th>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    Up to 5 Gbps of IPSec Internet Mix (IMIX)
+                                                    traffic
+                                                </li>
+                                                <li>
+                                                    Increases scalability for IPSec throughput needs
+                                                    for medium- and large-sized branches
+                                                </li>
+                                                <li>SSL and crypto hardware acceleration</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Integrated Gigabit Ethernet ports</th>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    Provides 6 built-in Layer 3 Ethernet ports for
+                                                    WAN or LAN with port speeds ranging from 10Mbps,
+                                                    100Mbps, 1Gbps and up to 10Gbps, depending on
+                                                    platform model
+                                                </li>
+                                                <li>
+                                                    All platforms have at least 2 Ethernet ports
+                                                    that can support Small Form-Factor Pluggable
+                                                    (SFP or SFP+) based connectivity in addition to
+                                                    4 RJ-45 connections, enabling fiber or copper
+                                                    connectivity.
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="contact"
+                            role="tabpanel"
+                            aria-labelledby="contact-tab"
+                        >
+                            <ul>
+                                <li>
+                                    All support information for
+                                    <a
+                                        href="https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/series.html#~tab-documents"
+                                        >Cisco Catalyst 8300 Series Edge</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://software.cisco.com/portal/pub/download/portal/select.html?&i=!m&mdfid=286324424"
+                                        >Platforms Support Documentation And Software</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/product.js"></script>
+    </body>
+</html>
